@@ -1,0 +1,52 @@
+/* Monospaced Font for  */
+.courier-prime-regular {
+    font-family: 'Courier Prime', monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.appContainer {
+    height: 100vh;
+}
+
+.truncateLink {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mainContent {
+    background-color: whitesmoke;
+    min-block-size: 300px;
+    padding: 12px;
+}
+
+.responseCard {
+    box-shadow: var(--elevation-medium);
+    min-height: 0;
+    overflow: 'auto';
+}
+
+/* Custom code block styling */
+.codeblock {
+    background-color: var(--palette-default-surface-2);
+    border-radius: 4px;
+    padding: 12px;
+    overflow-x: auto;
+}
+
+.toast {
+    position: fixed;
+    top: 2vh;
+    right: 2vw;
+    z-index: 9999;
+}
+
+.toast-fade-in {
+    opacity: 1;
+    transition: opacity 0.4s ease;
+}
+
+.toast:not(.toast-fade-in) {
+    opacity: 0;
+}
